@@ -61,11 +61,10 @@ xa = np.concatenate((x3,x2,x1))
 
 time = np.arange(x.size)/fs
 plt.subplot(211)
-plt.plot(time,x)
+plt.plot(fs*time,x)
 
 plt.subplot(212)
-plt.plot(time,xa)
-plt.xlabel('time')
+plt.plot(fs*time,xa)
 plt.show()
 
 # plot the spectrum
@@ -88,11 +87,10 @@ xa = np.concatenate((x3,x2,x1))
 
 time = np.arange(x.size)/fs
 plt.subplot(211)
-plt.plot(time,x)
+plt.plot(fs*time,x)
 
 plt.subplot(212)
-plt.plot(time,xa)
-plt.xlabel('time')
+plt.plot(fs*time,xa)
 plt.show()
 
 # plot the spectrum
@@ -115,11 +113,10 @@ xa = np.concatenate((x3,x2,x1))
 
 time = np.arange(x.size)/fs
 plt.subplot(211)
-plt.plot(time,x)
+plt.plot(fs*time,x)
 
 plt.subplot(212)
-plt.plot(time,xa)
-plt.xlabel('time')
+plt.plot(fs*time,xa)
 plt.show()
 
 # plot the spectrum
